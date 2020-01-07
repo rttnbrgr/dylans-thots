@@ -1,6 +1,6 @@
 import React from 'react';
 
-cont NeedleDropTop50Page = props => {
+const NeedleDropTop50Page = props => {
   const foo = 'foo';
   return (
     <div>
