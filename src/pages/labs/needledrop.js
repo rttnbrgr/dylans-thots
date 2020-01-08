@@ -14,18 +14,13 @@ const NeedleDropTop50Page = props => {
     <div>
       <div
         sx={{
-          color: "blue",
           display: 'grid',
           gridTemplateColumns: 'repeat(4, 25vw)',
           gridTemplateRows: 'repeat(1, 25vw)',
           gridAutoRows: '25vw',
           width: '100%',
-          'div': {
-            bg: 'pink'
-          },
         }}
       >
-
       {DATA.map((x,j) => (
         <a key={j} href={x.link} sx={{
           textDecoration: 'none',
@@ -33,12 +28,17 @@ const NeedleDropTop50Page = props => {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          justifyContent: 'center'
+          justifyContent: 'center',
+          bg: () => `${j % 3 ? ( j % 2 ? 'red' : 'green' ) : 'blue'}`,
+          transform: 'scale(1)',
+          transition: 'transform ease 0.3s',
+          '&:hover': {
+            transform: 'scale(1.2)',
+            zIndex: '99'
+          }
         }}>
-          <Styled.h2>
-            {`${j+1}`}
-          </Styled.h2>
-          <Styled.p>{x.title}</Styled.p>
+            <Styled.h2>{`${j+1}`}</Styled.h2>
+            <Styled.p>{x.title}</Styled.p>
         </a> 
       ))}
       </div>
