@@ -1,3 +1,6 @@
+// ripped from
+// https://www.listchallenges.com/the-needle-drop-top-50-albums-of-2019/list/2
+
 export const data = [
   {
     title: "Charli XCX - Charli",
