@@ -2,13 +2,16 @@
 import { jsx } from 'theme-ui'
 import React from 'react';
 import { Styled } from 'theme-ui'
+import DATA from '../../labs/needledrop/albums'
 import '../../labs/needledrop/reset.css';
 
 const NeedleDropTop50Page = props => {
   const foo = 'foo';
+
+  console.log('DATA', DATA);
+
   return (
     <div>
-      <h1>hi</h1>
       <div
         sx={{
           color: "blue",
@@ -22,29 +25,39 @@ const NeedleDropTop50Page = props => {
           },
         }}
       >
-      <div sx={{bg: 'blue'}} />
-      <div sx={{bg: 'green'}} />
-      <div sx={{bg: 'red'}} />
-      <div sx={{bg: 'orange'}} />
-      {new Array(50).fill('empty').map((x,j) => (
-        <div key={j}>
-        <Styled.h2>
-        {`${j+1}`}
-        </Styled.h2>
-        </div> 
-        ))}
+
+      {DATA.map((x,j) => (
+        <a key={j} href={x.link} sx={{
+          textDecoration: 'none',
+          color: 'initial',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}>
+          <Styled.h2>
+            {`${j+1}`}
+          </Styled.h2>
+          <Styled.p>{x.title}</Styled.p>
+        </a> 
+      ))}
       </div>
+
+
+      
+      
     </div>
   )
 }
 // @DONE
 // added rough content
-// @WORKING
 // setup the grid
-// @NEXT
-// add emotion
 // fake 50 array
 // iterate over
 // style for 4 wide
+// @WORKING
+// add basic typography
+// @NEXT
+// add emotion
 
 export default NeedleDropTop50Page
