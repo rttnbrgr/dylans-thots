@@ -4,11 +4,45 @@
 export const data = [
   {
     title: "Charli XCX - Charli",
-    link: "https://youtu.be/nA-_v2cJges"
+    link: "https://youtu.be/nA-_v2cJges",
+    images: [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273cee4acc7bfe23bc75461a66c",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02cee4acc7bfe23bc75461a66c",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851cee4acc7bfe23bc75461a66c",
+        "width": 64
+      }
+    ],
   },  
   {
     title: "Tyler, the Creator - IGOR",
-    link: "https://youtu.be/u37lG0BMFZk"
+    link: "https://youtu.be/u37lG0BMFZk",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2737005885df706891a3c182a57",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e027005885df706891a3c182a57",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048517005885df706891a3c182a57",
+        "width": 64
+      }
+    ],
   },
   {
     title: "Richard Dawson - 2020",
