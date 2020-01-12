@@ -12,6 +12,8 @@ import defaultThemeColors from "gatsby-theme-blog/src/gatsby-plugin-theme-ui/col
 // const blueGray = `#282c35`
 
 export default merge(defaultThemeColors, {
+  labsText: 'black',
+  labsBg: 'white',
   // text: blueGray,
   // primary: darkBlue,
   // heading: blueGray,
