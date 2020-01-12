@@ -40,8 +40,11 @@ const NeedleDropTop50Page = props => {
           gridTemplateColumns: ['repeat(2, calc(50vw - 5px))', 'repeat(3, calc(33.3333vw - 8px))', 'repeat(3, calc(33.3333vw - 8px))', 'repeat(4, calc(25vw - 12px))'],
           // gridTemplateRows: 'repeat(1, 25vw)',
           gridAutoRows: ['calc(50vw - 5px)', 'calc(33.3333vw - 8px)', 'calc(33.3333vw - 8px)', 'calc(25vw - 12px)'],
+          // refactor
+          gridTemplateColumns: ['repeat(2, 50vw)', 'repeat(3, 33.3333vw)', 'repeat(3, 33.3333vw)', 'repeat(4, 25vw)'],
+          gridAutoRows: ['50vw', '33.3333vw', '33.3333vw', '25vw'],
           width: '100%',
-          gridGap: ['10px', '12px','12px', '16px']
+          gridGap: 0
         }}
       >
       {DATA.map((x,j) => (
