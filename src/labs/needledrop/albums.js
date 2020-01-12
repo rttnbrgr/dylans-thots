@@ -89,7 +89,7 @@ export const data = [
   },
   {
     title: "Xiu Xiu - Girl with Basket of Fruit",
-    link: "https://www.youtube.com/watch?v=mW7m4...",
+    link: "https://www.youtube.com/watch?v=mW7m4r2Ul2Q",
     "images": [
       {
         "height": 640,
@@ -152,7 +152,7 @@ export const data = [
   },
   {
     title: "Matana Roberts - COIN COIN Chapter Four: Memphis",
-    link: "https://www.youtube.com/watch?v=1J3s6...",
+    link: "https://www.youtube.com/watch?v=1J3s6wbc-S4",
     "images": [
       {
         "height": 640,
@@ -257,7 +257,7 @@ export const data = [
   },
   {
     title: "King Gizzard & The Lizard Wizard - Infest the Rats’ Nest",
-    link: "https://www.youtube.com/watch?v=Puf8W...",
+    link: "https://www.youtube.com/watch?v=Puf8WJjnS4I",
     "images": [
       {
         "height": 640,
@@ -278,7 +278,7 @@ export const data = [
   },
   {
     title: "Billie Eilish - When We All Fall Asleep, Where Do We Go?",
-    link: "https://www.youtube.com/watch?v=L9fWq...",
+    link: "https://www.youtube.com/watch?v=L9fWqfDby9U",
     "images": [
       {
         "height": 640,
@@ -425,7 +425,7 @@ export const data = [
   },
   {
     title: "The Comet Is Coming - Trust in the Lifeforce of the Deep Mystery",
-    link: "https://www.youtube.com/watch?v=07CQa...",
+    link: "https://www.youtube.com/watch?v=07CQapiPPT0",
     "images": [
       {
         "height": 640,
@@ -467,7 +467,7 @@ export const data = [
   },
   {
     title: "Matmos - Plastic Anniversary",
-    link: "https://www.youtube.com/watch?v=XrNB3...",
+    link: "https://www.youtube.com/watch?v=XrNB3eSiTmg",
     "images": [
       {
         "height": 640,
@@ -551,7 +551,7 @@ export const data = [
   },
   {
     title: "Ariana Grande - thank u, next",
-    link: "https://www.youtube.com/watch?v=VWjFq...",
+    link: "https://www.youtube.com/watch?v=VWjFquNG1IY",
     "images": [
       {
         "height": 640,
@@ -740,7 +740,7 @@ export const data = [
   },
   {
     title: "Blu & Oh No - A Long Red Hot Los Angeles Summer Night",
-    link: "https://www.youtube.com/watch?v=jV_Ij...",
+    link: "https://www.youtube.com/watch?v=jV_IjRE6QTM",
     "images": [
       {
         "height": 640,
@@ -950,7 +950,7 @@ export const data = [
   },
   {
     title: "Malibu Ken - Malibu Ken",
-    link: "https://www.youtube.com/watch?v=BFWxk...",
+    link: "https://www.youtube.com/watch?v=BFWxkPF6n0o",
     "images": [
       {
         "height": 640,
@@ -1013,7 +1013,7 @@ export const data = [
   },
   {
     title: "100 gecs - 1000 gecs",
-    link: "https://www.youtube.com/watch?v=IhxPV...",
+    link: "https://www.youtube.com/watch?v=IhxPVSz5IFY",
     "images": [
       {
         "height": 640,
