@@ -69,6 +69,8 @@ const NeedleDropTop50Page = props => {
             zIndex: '99'
           },
 
+          
+
           'h2': {
             fontFamily: 'sans-serif',
             fontSize: ['16px', '24px', '24px', '24px'],
@@ -84,6 +86,17 @@ const NeedleDropTop50Page = props => {
         }}>
             <Styled.h2 className="mb">{`${j+1}`}</Styled.h2>
             <Styled.h2>{x.title}</Styled.h2>
+            {x.images && 
+            <img 
+            sx={{
+              position: 'absolute',
+              width: '100%',
+              height: '100%',
+              left: '0',
+            }} 
+            src={x.images[0]["url"]} 
+            /> 
+            }
         </a> 
       ))}
       </div>
