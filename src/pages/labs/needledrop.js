@@ -11,15 +11,37 @@ const NeedleDropTop50Page = props => {
   console.log('DATA', DATA);
 
   return (
-    <div>
+    <div sx={{
+      bg: 'labsBg'
+      }}
+      >
+      <div sx={{
+        fontFamily: 'sans-serif',
+        fontSize: ['16px', '24px', '24px', '24px'],
+        height: ['50vh', '25vh', '25vh', ],
+        display: 'flex',
+        padding: ['1rem', '1.25rem'],
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontWeight: 'bold',
+        'p': {
+          mt: '1rem',
+        },
+        color: 'labsText',
+      }}>
+        <h1>The Needle Drop</h1>
+        <h2>Top 50 Ablums of 2019</h2>
+        <p>Click album to watch the review.</p>
+      </div>
       <div
         sx={{
           display: 'grid',
-          gridTemplateColumns: ['repeat(2, calc(50vw - 5px))', 'repeat(3, calc(33.3333vw - 4px))', 'repeat(3, calc(33.3333vw - 4px))', 'repeat(4, 25vw)'],
+          gridTemplateColumns: ['repeat(2, calc(50vw - 5px))', 'repeat(3, calc(33.3333vw - 8px))', 'repeat(3, calc(33.3333vw - 8px))', 'repeat(4, calc(25vw - 12px))'],
           // gridTemplateRows: 'repeat(1, 25vw)',
-          gridAutoRows: ['calc(50vw - 5px)', 'calc(33.3333vw - 4px)', 'calc(33.3333vw - 4px)', '25vw'],
+          gridAutoRows: ['calc(50vw - 5px)', 'calc(33.3333vw - 8px)', 'calc(33.3333vw - 8px)', 'calc(25vw - 12px)'],
           width: '100%',
-          gridGap: ['10px', '12px']
+          gridGap: ['10px', '12px','12px', '16px']
         }}
       >
       {DATA.map((x,j) => (
@@ -33,18 +55,23 @@ const NeedleDropTop50Page = props => {
           justifyContent: 'center',
           // justifyContent: 'space-between',
           bg: () => `${j % 3 ? ( j % 2 ? 'red' : 'green' ) : 'blue'}`,
+          // debug
           bg: ['pink', 'blue', 'yellow', 'green', 'red'],
+          bg: 'labsText',
+          color: 'labsBg',
+          border: 'none',
+
           transform: 'scale(1)',
           transition: 'transform ease 0.3s',
           
           '&:hover': {
-            transform: 'scale(1.2)',
+            transform: 'scale(1.075)',
             zIndex: '99'
           },
 
           'h2': {
             fontFamily: 'sans-serif',
-            fontSize: ['16px', '24px', '24px', '36px'],
+            fontSize: ['16px', '24px', '24px', '24px'],
             fontWeight: 'normal',
             color: 'white',
             mb: '0',
